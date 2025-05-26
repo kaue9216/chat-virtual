@@ -1,0 +1,7 @@
+<div data-controller="chat" class="chat-container">
+  <div data-chat-target="conversation" style="overflow-y: scroll;" class="chat-conversation"></div>
+  <form class="chat-input" data-action="submit->chat#generateResponse">
+    <input type="text" data-chat-target="prompt">
+    <button type="submit">Enviar</button>
+  </form>
+</div>
